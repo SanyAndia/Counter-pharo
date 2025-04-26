@@ -12,6 +12,11 @@ Class {
 }
 
 { #category : 'accessing' }
+Counter >> count [
+	^count
+]
+
+{ #category : 'accessing' }
 Counter >> count: anInteger [ 
 	 count := anInteger 
 ]
